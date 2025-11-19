@@ -75,7 +75,7 @@ jobs:
       - name: Checkout python-ruyi
         uses: actions/checkout@v4
         with:
-          repository: revyos/python-ruyi
+          repository: ruyisdk-test/python-ruyi
           path: python-ruyi
 
       - name: Build Package
